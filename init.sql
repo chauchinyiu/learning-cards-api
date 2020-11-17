@@ -1,4 +1,4 @@
-CREATE TABLE CARDS (ID SERIAL PRIMARY KEY, english TEXT NOT NULL, german TEXT NOT NULL, chinese TEXT NOT NULL, ImageURL TEXT, Category TEXT NOT NULL);
+CREATE TABLE CARDS (ID SERIAL PRIMARY KEY, english TEXT, german TEXT, chinese TEXT, ImageURL TEXT, Category TEXT );
 
 
 INSERT INTO CARDS(english, german, chinese, ImageURL, Category) VALUES ('Apple','der Apfel','蘋果','https://images.unsplash.com/photo-1568702846914-96b305d2aaeb','Fruit');
